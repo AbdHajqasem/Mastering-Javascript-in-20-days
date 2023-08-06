@@ -23,7 +23,7 @@ Return an element whose ID corresponds to the word in the brackets:
 document.getElementById("id")
 
 //To wipe out what i write before:
-clear():to wipe out what i write before
+clear()
 
 //Return an element whose ID or Class or Tagname...etc, corresponds to the word in the brackets:
 document.querySelector("#id/.class/tagname")
