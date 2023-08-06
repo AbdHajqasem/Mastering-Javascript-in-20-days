@@ -12,7 +12,7 @@ This is a challenge to learn and master Javascript in 20 days or less 🌝 . My 
 - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 &nbsp;2. FreeCodeCamp Javascript Curriculum
-- [Javascript algorithms and data structures ]([https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [Javascript algorithms and data structures ]([[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/])(https://www.freecodecamp.org/Abdulkareem-hajqasem))
 
 ### Daily pages links 🌅 : 
 
