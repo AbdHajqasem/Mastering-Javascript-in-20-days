@@ -3,6 +3,7 @@ Java-Script Definition:
 its a high-level programing language that used for web development, and  help us to modify website
 
 ---
+
 //DOM stand for:
 Document-Object-Model
 
