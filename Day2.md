@@ -102,5 +102,6 @@ to tell us that the string start with some other string
 ```
 ---
 
-
+### Connecting strings togehter:
+**+** used to connect strings togehter
 
