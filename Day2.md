@@ -8,20 +8,17 @@
 ---
 ### Primitive Datatypes:
 #### 1-Strings
-Ex.
-
+##### Ex.
 "Hello" , '49'
 
 ----
 #### 2-Numbers
-Ex.
-
+##### Ex.
 (46) , (297884) , (-3.256)
 
 ---
 #### 3-Boolean
-Ex.
-
+##### Ex.
 true/false
 
 ---
@@ -35,6 +32,7 @@ true/false
 ### typeof operator:
 The **typeof** operator returns a string indicating the type of the operands value.
 
+##### Ex.
 
 
-;';'
+
