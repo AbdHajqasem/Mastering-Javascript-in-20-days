@@ -33,6 +33,18 @@ true/false
 The **typeof** operator returns a string indicating the type of the operands value.
 
 ##### Ex.
+```javascript
+typeof 46 //The output is "number"
 
+typeof true//The output is "boolean"
+
+typeof "true"//The output is "String"
+
+typeof documnet.title//The output is "String"
+
+typeof undefined //The output is "undefined"
+
+typeof null //The output is "object"
+```
 
 
