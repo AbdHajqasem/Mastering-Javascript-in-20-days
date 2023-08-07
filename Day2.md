@@ -214,6 +214,7 @@ Return a boolean value(true or false)
 #### 1)=== / == equals
 #### 2)!== / != does not equal
 !== & === its compare the values and the data type
+
 != & == its just compare the value
 
 ##### EX.
