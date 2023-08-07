@@ -4,6 +4,7 @@
 1-Primitive Datatypes
 
 2-Objects
+
 ---
 ### Primitive Datatypes:
 #### 1-Strings
