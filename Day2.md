@@ -32,4 +32,7 @@ true/false
 
 ---
 
+### typeof operator:
+The **typeof** operator returns a string indicating the type of the operands value.
+
 
