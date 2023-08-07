@@ -61,9 +61,9 @@ characters is : an Individual units that make up a string.
 
 ##### Ex.
 ```javascript
-"hello"[0] //the output is "h"
+"hello"[0] //The output is "h"
 
-"hello"[3] //the output is "l"
+"hello"[3] //The output is "l"
 ```
 
 ---
@@ -74,17 +74,17 @@ Return the character for the entered index
 
 ##### Ex.
 ```javascript
-"hello".indexof("h")// the output is 0
+"hello".indexof("h")// The output is 0
 
-"hello".indexof("l")// the output is 2// if we have multiple of the same character we gonn find the first one
+"hello".indexof("l")// The output is 2// if we have multiple of the same character we gonn find the first one
 
-"hello".indexof("q")//the output is -1 because the character doesnt exist
+"hello".indexof("q")//The output is -1 because the character doesnt exist
 
-"hello".indexof("H")//the output is -1 because its case sensitive
+"hello".indexof("H")//The output is -1 because its case sensitive
 
-"hello".indexof("he")// the output is 0 because the substring begins in the index 0
+"hello".indexof("he")// The output is 0 because the substring begins in the index 0
  
-"hello".indexof("heo")// the output is -1 because the substring doesnt exist
+"hello".indexof("heo")// The output is -1 because the substring doesnt exist
 ```
 ---
 
@@ -93,9 +93,9 @@ Use to know that the string contains the string in the brackets
 
 ##### Ex.
 ```javascript
-"hello".inculdes("he")// the output is true
+"hello".inculdes("he")// The output is true
 
-"hello".inculdes("hek")// the output is false
+"hello".inculdes("hek")// The output is false
 ```
 ---
 #### 3-stratsWith():
@@ -103,9 +103,9 @@ To tell us that the string start with some other string
 
 ##### Ex.
 ```javascript
-"hello".stratsWith("he")// the output is true
+"hello".stratsWith("he")// The output is true
 
-"hello".stratsWith("el")// the output is false
+"hello".stratsWith("el")// The output is false
 ```
 ---
 
@@ -142,7 +142,7 @@ Converts a string to uppercase letters
 
 ##### EX.
 ```javascript
-"hello"+"!"//the output is "hello!"
+"hello"+"!"//The output is "hello!"
 ```
 ---
 
@@ -155,10 +155,70 @@ Converts a string to uppercase letters
 
 ---
 
+### 1-Arithmetic Operators:
+#### 1)+ Add
+```javascript
+3+1 //The output is 4
+```
+---
+#### 2)- Subtract
+```javascript
+3-1 //The output is 2
+```
+---
+#### 3)* Multiply
+```javascript
+3*1 //The output is 3
+```
+---
+#### 4)/ Divide
+```javascript
+3/1 //The output is 3
+```
+---
+### 2-Comparsion Operators:
+Return a boolean value(true or false)
 
+#### 1)> Greater than
+##### EX.
+```javascript
+3>1 //The output is true
+```
+---
+#### 2)< Less than
+##### EX.
+```javascript
+3<1 //The output is false
+```
+---
+#### 3)>= Greater than or equal to
+##### EX.
+```javascript
+3>=1 //The output is true
+1>=1 //The output is true
+```
+---
+#### 4)<= Less than or equal to
+##### EX.
+```javascript
+3<=1 //The output is false
+1<=1 //The output is true
+```
+---
 
+### 3-Equality operators:
+#### 1)===  == equals
+#### 2)!==  != does not equal
+!== & === its compare the values and the data type
+!= & == its just compare the value
 
-
-
-
+##### EX.
+```javascript
+1===1 // the output is true
+1==1 // the output is true
+"1"==="1" // the output is true 
+"1"=="1" // the output is true
+1==="1"// the output is false
+1=="1"// the output is true 
+```
 
