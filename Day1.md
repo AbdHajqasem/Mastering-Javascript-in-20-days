@@ -106,7 +106,7 @@ or
 document.querySelectorAll("name") //Return a list of element whose Name corresponds to the word in the brackets
 ```
 ---
-# Make Changes:
+## Make Changes:
 #### 1-change the page title:
 ```javascript
 document.title="someThing"
