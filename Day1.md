@@ -10,9 +10,9 @@ Java-Script create an object(entity) that represnts the document and all of the 
 //docttype:
 defines the document type
 
-//Return the title of the document:
-document.title
-
+```javascript
+document.title //Return the title of the document:
+```
 //Return the body element:
 document.body
 
