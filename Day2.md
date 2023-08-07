@@ -157,21 +157,25 @@ Converts a string to uppercase letters
 
 ### 1-Arithmetic Operators:
 #### 1)+ Add
+##### Ex.
 ```javascript
 3+1 //The output is 4
 ```
 ---
 #### 2)- Subtract
+##### Ex.
 ```javascript
 3-1 //The output is 2
 ```
 ---
 #### 3)* Multiply
+##### Ex.
 ```javascript
 3*1 //The output is 3
 ```
 ---
 #### 4)/ Divide
+##### Ex.
 ```javascript
 3/1 //The output is 3
 ```
