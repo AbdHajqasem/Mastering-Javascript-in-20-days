@@ -130,5 +130,10 @@ document.getElementById("id").append("somthing") //to add  onto text
 
 ```javascript
 clear() //to wipe out what i write before
+```
+---
+# MDN-Mozilla link:
+
+https://developer.mozilla.org/en-US/
 
 
