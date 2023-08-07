@@ -21,7 +21,7 @@ Java-Script create an object(entity) that represnts the document and all of the 
 defines the document type
 
 ---
-# Print sentence
+## Print sentence
 ```javascript
 console.log("Hello!")
 ```
@@ -42,10 +42,9 @@ document.body //Return the body element
 document.body.children //Return a group of elements that are inside the body:
 ```
 ---
-# Finding Elements
+## Finding Elements
 ##### 1-Using ID
 
-### 
 ```javascript
 document.getElementById("id") //Return an element whose ID corresponds to the word in the brackets
 ```
@@ -117,7 +116,7 @@ document.title="someThing"
 document.getElementById("id").textContent="name"
 ```
 ---
-# Another commands
+## Another commands
 
 ```javascript
 document.querySelectorAll("x").length //Appear the number of the elements that return
