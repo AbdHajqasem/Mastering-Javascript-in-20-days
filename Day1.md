@@ -21,6 +21,11 @@ Java-Script create an object(entity) that represnts the document and all of the 
 defines the document type
 
 ---
+# Print sentence
+```javascript
+console.log("Hello!")
+```
+---
 #### Return the page title:
 
 ```javascript
