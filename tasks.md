@@ -18,7 +18,9 @@ console.log(!!d);
 What will be the output of each console.log statement? **_You MUST explain WHY_**.
 
 1- true
+
 2- false
+
 3- true
 
 -------------------------------------------------------------------
@@ -65,6 +67,7 @@ console.log(x === y);
 What will be the output of each `console.log` statement? **_You MUST explain WHY_**.
 
 1-true
+
 2-false
 
 -------------------------------------------------------------------
