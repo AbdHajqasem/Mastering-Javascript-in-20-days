@@ -211,8 +211,8 @@ Return a boolean value(true or false)
 ---
 
 ### 3-Equality operators:
-#### 1)===  == equals
-#### 2)!==  != does not equal
+#### 1)=== / == equals
+#### 2)!== / != does not equal
 !== & === its compare the values and the data type
 != & == its just compare the value
 
