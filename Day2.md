@@ -57,7 +57,7 @@ The Strings made of characters
 
 characters is : an Individual units that make up a string.
 
-#### To return the character for using an index from string:
+#### To retrieve the character at a specific index from a string:
 
 ##### Ex.
 ```javascript
@@ -70,7 +70,7 @@ characters is : an Individual units that make up a string.
 
 ### String properties:
 #### 1-indexof():
-Return the character for the entered index 
+Return the index for the entered character
 
 ##### Ex.
 ```javascript
