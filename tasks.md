@@ -50,7 +50,7 @@ let result = 5 + 2 * 3 - 1;
 
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
 
-10
+10(The expression will first perform the multiplication of 2 and 3, then it will do the addition and subtraction.)
 
 -------------------------------------------------------------------
 
