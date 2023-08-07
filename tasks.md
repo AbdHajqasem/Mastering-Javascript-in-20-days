@@ -16,6 +16,7 @@ console.log(!!d);
 ```
 
 What will be the output of each console.log statement? **_You MUST explain WHY_**.
+
 1- true
 2- false
 3- true
@@ -32,6 +33,7 @@ console.log(4 + 5 * "7");
 ```
 
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
+
 39
 
 -------------------------------------------------------------------
@@ -45,6 +47,7 @@ let result = 5 + 2 * 3 - 1;
 ```
 
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
+
 10
 
 -------------------------------------------------------------------
@@ -60,6 +63,7 @@ console.log(x == y);
 console.log(x === y);
 ```
 What will be the output of each `console.log` statement? **_You MUST explain WHY_**.
+
 1-true
 2-false
 
@@ -77,4 +81,5 @@ console.log(result);
 ```
 
 What is the value of result? **_You MUST explain the steps of evaluation taken by JS_**
+
 true
