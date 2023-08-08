@@ -68,7 +68,7 @@ characters is : an Individual units that make up a string.
 
 ---
 
-### String properties:
+## String properties:
 #### 1-indexof():
 Return the index for the entered character
 
@@ -226,4 +226,104 @@ Return a boolean value(true or false)
 1==="1"// the output is false
 1=="1"// the output is true 
 ```
+---
+## Expressions:
+Expressions is:a valid set of literals, variables, operators, and expressions that evaluate a single value
+##### Ex.
+```javascript
+4/2*10 // The output is 20
+"Frontend" + "Masters" // The output is 'FrontendMasters'
+5 > 4 !== 3 > 4 // The output is true
+```
+---
+
+## Variables
+variables point to values(its a pointer)
+### 1-let
+Special keyword that allow us to create or declare a variable
+##### Ex.
+```javascript
+let x=5; // This command assigns the value of 5 to the variable named "x".
+let name ="Abdulkareem"; // This command assigns the string value "Abdulkareem" to the variable named "name"
+```
+---
+
+#### Declaring Variables:
+##### EX.
+```javascript
+let age; // If i print this variable the output will be undefined
+```
+---
+
+#### Assigning Variables:
+##### EX.
+```javascript
+let age;
+age = 18; //I declared a variable with the name "age," and I assigned the value 18 to this variable
+```
+
+---
+
+#### Declaring & Assigning at the same time:
+##### EX.
+```javascript
+let age=18;
+```
+---
+
+### 2-Const:
+Used to declares & assigns a **constant**
+aka a variable can't be changed
+##### EX.
+```javascript
+const age = 21; // I declared a variable with the name "age," and I assigned the value 21 to this variable, and i can't assign another value for it, like i cant say (age = 15)
+```
+---
+
+#### Variables in Expressions:
+##### EX.
+```javascript
+let age=45;
+age-2 // the out is 43
+```
+---
+
+####  Structure for variables name:
+The common structure for variables name is a camelCase structure
+##### EX.
+```javascript
+let validVariable;
+```
+##### note:
+I cant start the variable name with number
+
+---
+
+##### EX.
+```javascript
+let age=(4*2)+3; // The output if i print age is 11
+let name="abd";
+let myName;
+myName=name; // The output if i print myName is "abd"
+```
+---
+### Expression VS. Statments:
+#### 1-Expression: 
+aks Java-Script for a particular value
+##### EX.
+```javascript
+6+4
+document.getElementById("board")
+```
+----
+
+### 2-Statment:
+A statment tells Java-Script to do somthing, like (declare/assign a variable & for statment...etc)
+##### EX.
+```javascript
+let ten=6+4;
+maAge=18;
+name="Abdulkareem";
+```
+
 
