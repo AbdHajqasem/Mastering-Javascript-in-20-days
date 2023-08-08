@@ -309,7 +309,7 @@ myName=name; // The output if i print myName is "abd"
 ---
 ### Expression VS. Statments:
 #### 1-Expression: 
-aks Java-Script for a particular value
+asks Java-Script for a particular value
 ##### EX.
 ```javascript
 6+4
