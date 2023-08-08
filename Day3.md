@@ -158,18 +158,109 @@ const js ={
 }:
 js.name //The output is "JavaScript", as we can see the output of this is a string so we can do the stringy stuff
 //EX.
-
 js.name.startWith("Java")// The output is true
 // or we can do
 let age =2022-js.birthYear
 js.isAwesome // The output is true
 ```
+---
+### Reassigning object values:
+ ##### EX.
+```javascript
+const indecisive = { 
+lunch:"sandwich"
+};
+indecisive.lunch = "tacos"; //indecisive.lunch will become 'tacos'
+indecisive.snack = "chips"; //We declared a new property call snack
 
+```
+**note**:The object is mutable
+**note**:Arrays is an object
+how is this?
+its like the indexes are the name of the properties in the array like index 0 its a property name as 'lunch' is a property name the 'indecisive' object, so like the property 'lunch' point the value 'tacos' and the 'index0' point the item which he corresponds to in the array.
 
+---
+##### EX on objects:
+```javascript
+const abdulkareem = 
+{ name: "Abdulkareem", 
+home: "Tulkarm",
+languages: ["English", "German", "French"],
+pet: null,
+vehicle: "Vespa",
+hobbies: ["travel", "climbing", "gaming", "lindy hop"] 
+}; 
+```
+---
+#### .freeze():
+The Object.freeze() static method freezes an object. Freezing an object prevents extensions and makes existing properties non-writable and non-configurable. A frozen object can no longer be changed: new properties cannot be added, existing properties cannot be removed, their enumerability, configurability, writability, or value cannot be changed, and the object's prototype cannot be re-assigned. freeze() returns the same object that was passed in.
+##### EX:
+```javascript
+const obj = {
+  prop: 42,
+};
+Object.freeze(obj);
+obj.prop = 33; // Throws an error 
+console.log(obj.prop); // Expected output: 42
+```
+---
+### Objects & Functions:
+Properties can point to functions too We call function-properties "methods" on objects 
+##### EX:
+```javascript
+const dog = { name: "Ein",
+ breed: "Corgi",
+ speak: function () { console.log("woof woof"); 
+} 
+} 
+dog.speak(); //The output is "woof woof"
+```
+---
+### this.:
+'this' in a method lets us reference other properties on the object 
+##### EX:
+```javascript
+const abdulkareem = { 
+name: "Abdulkareem"
+}
+abdulkareem.speak=function(){ console.log("Hi my name is", this.name); 
+} 
+anjana.speak(); // The output is Hi my name is Abdulkareem
+```
+---
+## Nested objects:
+##### EX:
+```javascript
+const menu = {
+ lunch: {
+ appetizer: "salad",
+ main: "spaghetti",
+ dessert: "tiramisu" 
+},
+dinner:{
+ appetizer: "samosa",
+ main: "saag paneer",
+ dessert: "gulab jamun" 
+}
+ }; 
+const tiramisu = menu.lunch.dessert; // The output is  "tiramisu"
+```
+---
 
+## Objects in Arrays & Objects:
+##### EX:
+```javascript
+const spices = [
+{name: "Emma", nickname: "Baby"},
+ {name: "Geri", nickname: "Ginger"},
+ {name: "Mel B", nickname: "Scary"},
+ (name: "Mel C", nickname: "Sporty"},
+ {name: "Victoria", nickname: "Posh"} 
+]; 
 
-
-
-
-
-
+const spiceGirls = {
+ albums: ["Spice", "Spiceworld", "Forever"],
+ motto: "Girl Power",
+ members: spices 
+};
+```
