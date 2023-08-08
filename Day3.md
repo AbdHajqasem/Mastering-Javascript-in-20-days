@@ -130,7 +130,43 @@ arr = [5, 6, 7]; // This would result in an error because you're trying to reass
 ler arr1=[1,2,3];
 let arr2=arr1;
 arr1[1]=4;// I've changed the value in the index1 in array 'arr1', then it becomes [1,4,3], depending on this change the array 'arr2' will also change to [1,4,3], because the arrays 'arr1'/'arr2' both point the values [1,2,3].
+```
 ---
+## Objects:
+Objects collect multiple values together to describe more complex data Similar to how we can point at different values using variables in our code, objects let us point at related values using properties in the object. 
+ ##### EX.
+```javascript
+const js ={
+  name: "JavaScript",
+  abbreviation: "JS",
+  isAwesome: true,
+  officialSpec: "EcmAscript",
+  birthYear: 1995,
+  creator: "Brendan Eich"
+}:
+```
+### Getting property values:
+ ##### EX.
+```javascript
+const js ={
+  name: "JavaScript",
+  abbreviation: "JS",
+  isAwesome: true,
+  officialSpec: "EcmAscript",
+  birthYear: 1995,
+  creator: "Brendan Eich"
+}:
+js.name //The output is "JavaScript", as we can see the output of this is a string so we can do the stringy stuff
+//EX.
+
+js.name.startWith("Java")// The output is true
+// or we can do
+let age =2022-js.birthYear
+js.isAwesome // The output is true
+```
+
+
+
 
 
 
