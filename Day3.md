@@ -264,3 +264,27 @@ const spiceGirls = {
  members: spices 
 };
 ```
+---
+### Build-In Objects:
+#### 1-Document:
+#### 2-Console
+#### 3-Math
+#### 4-Strings(when we use methods and propirties)
+##### EX.
+```javascript
+document.getElementById("id");
+document.title;
+console.log("hello");
+console.warn("oh")// it will print whats inside the brackets but with warning
+console.error("danger")// it will print whats inside the brackets but with red exclamation point
+Math.PI// the output is 3014459....
+Math.random()
+let s="abd"
+s.toUpperCase()
+```
+---
+### Script tag(<Script>):
+Used to write javascript inside it.
+
+
+
