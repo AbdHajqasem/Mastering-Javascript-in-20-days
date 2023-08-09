@@ -283,8 +283,133 @@ let s="abd"
 s.toUpperCase()
 ```
 ---
-### Script tag(<Script>):
+### Script tag(<Script>js-code</script>):
 Used to write javascript inside it.
+
+---
+
+## Functions:
+### Declaring(creating) a function:
+##### EX.
+```javascript
+function half(x){
+return x / 2; 
+} 
+const one = half(2); //calling (using) a function: 
+```
+---
+### Parameters & Arguments
+Some functions need more than one value to work 
+##### EX.
+```javascript
+function add(x, y){
+return x + y; 
+} 
+add(2,3); 
+```
+Some functions don't even need any values 
+##### EX.
+```javascript
+function getRandomNumber() {
+return Math.random();
+} 
+getRandomNumber(); 
+```
+**parameters are the inputs a function expects**
+##### EX.
+```javascript
+function add3(x, y, z) {
+console.log("My parameters are named x, y, z");
+console.log("I received the arguments", x, y, z);
+return x + y + z; 
+} 
+coast sum = add3(4,5,6);
+```
+**what happened if i pass two parameters to function (add3)**
+##### EX.
+```javascript
+ let sum= add3(1,2)//The output will be parameters are named xadd3(1,2)x , y, z/I received the arguments 1 2 undefined /  and if i print sum the outputwill be NaN(because z is undefined)
+```
+**arguments are the actual values the function is called with**
+**Parameters should be named like variables, and behave like variables within the function body** 
+##### EX.
+```javascript
+function doesThisWork("literally a value"){ //error
+return true; 
+} 
+function howAboutThis(lweirdVariable!){ //error because its am invalid variable name
+return true;
+} 
+```
+---
+### Return values:
+Return values A return statement specifies the function's output value 
+##### EX.
+```javascript
+function square(x) {
+return x * x; 
+} 
+const nine = square(3); 
+```
+**Some functions don't return anything**
+##### EX.
+```javascript
+function sayHello(name) {
+console.log("Oh hi, " + name + "I");
+} 
+sayHello("Marc");
+// The value that returned when there's no return is "undefined"
+```
+##### EX.
+```javascript
+function sayHello(name) {
+return 2+2;
+console.log("Oh hi, " + name + "I");
+} 
+let hi=sayHello("Marc");// The function will not reach the console.log statement and display its contents because the execution of the function is terminated by the return statement. This prevents any subsequent code within the function from being executed, including the console.log statement.
+```
+**Another way to declare a function**:
+##### EX.
+```javascript
+const yell = function (saying){
+ return saying.toUpperCase();
+ }
+  yell("hello")// The output is "HELLO" 
+```
+---
+### Arrow functions:
+The => "fat arrow" lets us create an unnamed function without much code 
+##### EX.
+```javascript
+(x, y) => x + y 
+```
+Since arrow functions are expressions, we can assign them to a variable 
+##### EX.
+```javascript
+const add=(x,y)=>x+y
+//is equivalent to 
+function add1(x, y) {
+ return x + y;
+}
+```
+**Arrow functions are great when we just want to return value**
+
+**For one-parameter functions, parentheses are optional**
+##### EX.
+```javascript
+X => X*X 
+(x) => x*x
+```
+**If we need to do more than just return a value, we can use curly braces for a "normal" function body In that case, we still need a return**: 
+##### EX.
+```javascript
+const addAndLog = (x, y) => {
+let sum = x + y;
+ console.log('The sum is', sum);
+ return sum;
+}
+```
+---
 
 
 
