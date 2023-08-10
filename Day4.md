@@ -95,7 +95,9 @@ document.addEventListener("click", (event) => console.log(event.target);
 
 **• "mouseout"** 
 
-...and lots more!** 
+...and lots more!
+
+---
 
 
 
