@@ -147,6 +147,74 @@ for (let item of ["pop", 6, "squish"]{
 console.log(typeof item);  // The output is string, number, string
 }
 ```
+## Map & Filter:
+### 1-Map:
+The map & filter methods also let us process all the items in an array.
+
+map calls a function on each item in an array to create a new array. 
+##### Ex.
+```javascript
+const spices = [
+ {name: "Emma", nickname: "Baby"},
+ {name: "Geri", nickname: "Ginger"},
+ {name: "Mel B", nickname: "Scary"},
+ {name: "Mel C", nickname: "Sporty"},
+ {name: "Victoria", nickname: "Posh"}
+]; 
+const nicknames = spices.map(s => s.nickname + " Spice"); 
+//Arrow functions are useful for this! 
+```
+#### Another way to write a String:
+String templates are useful too! Make them with backticks and '$ {}', 
+
+'string to insert ${variable} into' 
+##### Ex.
+```javascript
+s => `${s.nickname} Spice'; // In the brackets we can write a javaacript code like 1+2
+is equivalent to 
+s => s.nickname + " Spice"
+```
+---
+### 2-Filter:
+filter calls a true/false function on each item 
+
+and creates a new array with only the items where the function returns true. 
+
+##### Ex.
+```javascript
+const mels = spices.filter(s => s.name.includes ("mel")); 
+```
+## Spread(...):
+We can use it to put all the items from one array inside another array.
+##### Ex.
+```javascript
+const oldBurns= [("square", "wick")];
+const newBurns= [("basic", "dusty", "sus")];
+const burnBook [...oldBurns, ...newBurns); 
+//equivalent to 
+const burnBook = oldBurns.concat(newBurns); 
+```
+We can also use it to pass all the items from an array as arguments to a function or method.
+##### Ex.
+```javascript
+ const skills = ["HTML", "CSS", "JS")];
+ const newSkills = ["React", "TypeScript", "Node")];
+ skills.push(...newSkills);
+ console.log(...skills);// The output will be HTML CSS JS React  TypeScript Node
+```
+---
+## While loops:
+while loops let us run a chunk of code over & over if a (condition) is true.
+##### Ex.
+```javascript
+let fiveRandomNumbers = [];
+ while (fiveRandomNumbers.length < 5) {
+ fiveRandomNumbers.push(Math.random());
+}
+```
+
+
+
 
 
 
