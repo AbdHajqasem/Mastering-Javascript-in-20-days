@@ -1,4 +1,4 @@
-![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/5e9a7362-4fc7-4e6a-9cf3-289893bbe7fa)![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/99d9c773-8f71-41df-97f2-38001da84c47)# Day4
+
 ## Scope:
 In JS it doesn't just matter what variables we declare, 
 
