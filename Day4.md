@@ -14,4 +14,5 @@ function declareBankruptcy() {
 declareBankruptcy();
 console.log(bankruptcy); // error (bankruptcy is not definfed)
 ```
-**Scopes are nested within the program The widest scope is the global scope Each function gets its own new scope within the scope where it was declared**.
+**Scopes are nested within the program The widest scope is the global scope, 
+Each function gets its own new scope within the scope where it was declared**.
