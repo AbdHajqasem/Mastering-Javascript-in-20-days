@@ -236,12 +236,8 @@ Some things that take time:
 • Loading data from the interwebs 
 
 ---
-## APIs & Fetch:
-URLs point to resources on the web.
-### fetch():
-lets us use JS to load data from APIs 
-fetch("https://dog.ceo/api/breed/hound/list") 
-But if we run it in the console, we see something weird... 
+
+
 
 
 
