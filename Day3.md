@@ -411,5 +411,29 @@ let sum = x + y;
 ```
 ---
 
-
+**to change on the html code**:
+#### .setAttribute
+##### EX.
+```javascript
+let button=document.getElementsByName("ture")
+let b=button[0];
+b.setAttribute("naame","abd")
+b.setAttribute("disabled", "")
+```
+---
+#### .removeAttribute
+##### EX.
+```javascript
+let button=document.getElementsByName("ture")
+let b=button[0];
+b.removeAttribute("disabled)
+```
+---
+**To covert to string**:
+#### toString():
+##### EX.
+```javascript
+true.toString()
+```
+---
 
