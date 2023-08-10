@@ -92,11 +92,12 @@ it needs 3 values to work:
 ```javascript
 condition ? valuelfTrue : valueffFalse;
 //--------------------------------------------
-let mood = forecast === "sunny" ? : "sad
+let mood = forecast === "sunny" ? : "sad"
 //is equivalent to 
 let mood;
 if (forecast === "sunny") {
- mood = "happy"; else {
+ mood = "happy";
+else {
  mood = "sad"; 
 ```
 ---
@@ -135,8 +136,10 @@ console.log(n); // The output is 1,2,3
 } 
 ```
 **We can use for...of to iterate over characters in a string**
+##### Ex.
+```javascript
 for (let char of "ALOHA") {
-console.log(char); A, L, O, H, A
+console.log(char);//The output is A, L, O, H, A
 }
 //--------------------------------------------
 or items in an array 
