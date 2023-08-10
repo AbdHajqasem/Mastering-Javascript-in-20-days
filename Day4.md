@@ -88,6 +88,7 @@ console.log("clicked")});
 document.addEventListener("click", (event) => console.log(event.target); 
 ```
 **"click" isn't the only type of event we can handle** 
+
 **• "dblclick"** 
 
 **• "mouseover"** 
