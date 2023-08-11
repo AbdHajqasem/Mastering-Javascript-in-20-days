@@ -85,4 +85,84 @@ const (, , me113) = spices;
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9b1c5d0b-ad9f-4d4d-bc9d-c5e6021aa94e)
 
+---
+## Async Functions:
+If we try to await something in a regular function... 
+##### Ex.
+```javascript
+function fetchResponse(url){
+ const response = await fetch(ur1);
+ return response; 
+} 
+//JS doesn't allow it
+```
+**We need to make it an async function**
+##### Ex.
+```javascript
+async function fetchResponse(url){
+ const response= await fetch(ur1);
+ return response; 
+}
+await fetchResponse("https://frontendmasters.com/courses/javascript-first-steps/async-functions/")
+```
+**This tells JS to expect to await async operations inside the function**
+
+---
+## Modules:
+Modules let us split big codebases across multiple files
+##### Ex.
+```javascript
+<script type="module", //... </script> 
+//JS modules work differently from JS scripts
+```
+### Module scope:
+Another difference is that modules create their own scope 
+
+Try loading the page and accessing the **BREEDS** variable we declare in the module 
+
+---
+
+### import && export:
+**export lets us expose variables from our module's scope to the outside world**
+##### Ex.
+```javascript
+// myModule.js 
+const veryUsefulFunction = () => "I came from a module";
+export {veryUsefulFunction };
+```
+**import lets us use an exposed variable from another module**
+##### Ex.
+```javascript
+// otherModule.js
+ import {veryUsefulFunction } from './myModule.js' 
+ veryUsefulFunction();
+```
+---
+## Debugging:
+### Use console . log ( ) (or .warn ( ) or . error ( )):
+**is one way to understand what's happening when your program runs** 
+##### Ex.
+```javascript
+function whyIsntThisWorking(input){
+ console.log("Well at least we got this far");
+ console.log(input);
+ return  thingThatDoesntWork(input); 
+}
+```
+---
+### use Browser Debugger:
+You can also use the browser's debugger to pause JS and inspect what's happening 
+##### Ex.
+```javascript
+function whyIsntThisWorking(input) {
+ debugger;
+ return thingThatDoesntWork(input); 
+} 
+The debugger statement creates a breakpoint where JS will pause and let you look around 
+```
+---
+## try & catch:
+
+
+
 
