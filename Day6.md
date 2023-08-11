@@ -80,7 +80,9 @@ const (, , me113) = spices;
 
 #### .split():
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/87ad4f3c-f7e6-456b-bacb-091ce11bd61d)
+
 **its like we said split the string whenever you see a space**
+
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9b1c5d0b-ad9f-4d4d-bc9d-c5e6021aa94e)
 
 
