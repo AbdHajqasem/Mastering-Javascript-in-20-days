@@ -162,6 +162,28 @@ The debugger statement creates a breakpoint where JS will pause and let you look
 ```
 ---
 ## try & catch:
+Usually errors will cause JS to stop running our code. 
+##### Ex.
+```javascript
+thisThrowsAnError();
+console.log("I'll never get here");
+```
+Sometimes that's appropriate and what we want JS to do 
+
+**try lets us "watch out" for potential errors its friend catch lets us manage errors when they occur** 
+##### Ex.
+```javascript
+try {
+thisMightThrowAnError();
+ }
+catch (error) {
+ console.error("As ifl Error:", error);
+ console.log("Whatever, let's press on anyway"); 
+}
+console.log("still rollin' with the homies");
+```
+
+
 
 
 
