@@ -99,16 +99,105 @@ function copyArrayAndManipulate(array, instructions){// now when i  write instru
 output.push(instructions(array[i]));
  }
 return output; 
-) 
-function mulliplyBy2(Input){
+} 
+function mulliplyBy2(input){
  return input * 2;
 }
-const result = copyArrayAnditsmiputate([1, 2, 3J, multtplyBY2); 
+const result = copyArrayAnditsmiputate([1, 2, 3], multtplyBY2); 
 ```
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/8f981cf7-fc88-48e4-a02a-5365dca9495f)
 
 ---
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/8e8c72bd-8817-44b8-943e-90568d35a5a5)
+
+---
+
+### Callbacks & Higher Order:
+How was this possible? 
+Functions in javascript = first class objects
+
+They can co-exist with and can be treated like any other javascript object
+
+1. Assigned to variables and properties of other objects
+
+2. Passed as arguments Into functions
+
+3. Returned as values from functions
+
+**Which is ourFunction  higher-order function** 
+
+The outer function that takes in a function is our higher-order function
+
+**Which is our Callback Function**
+
+The function we Insert is our callback function 
+
+**Higher-order functions** 
+Takes in a function or passes out a function
+
+Just a term to describe these functions - any function that does it we call that - but there's nothing different about them inherently 
+
+**Callbacks and Higher Order Functions simplify our code and keep it DRY**:
+
+**Declarative readable code**: Map. filter. reduce - the most readable way to write code to work with data.
+
+**Codesmith & pro interview prep**: One of the most popular topics to test in interview both for Codesmith and mid/senior level job interviews
+
+**Asynchronous JavaScript**: Callbacks are a core aspect of async JavaScript, and arc under-the-hood of promises, async/await. 
+
+---
+### Arraow Functions:
+Introducing arrow functions - a shorthand way to save functions:
+##### Ex:
+```javascript
+function multiplyBy2(input){
+ return input * 2;
+} 
+const multiplyBy2 = (input) => {
+return input*2
+} 
+const multiplyBy2 = (input) => input*2
+
+const multiplyBy2 = input => input*2
+
+const output = multiplyBy2(3)
+```
+---
+##### Ex:
+```javascript
+function copyArrayAndManipulate(array, instructions){
+ const output =[];
+ for (lel i = 0; i < array.lingth;;i++) {
+    output.push(instructions(array[i]));
+ }
+return output; 
+}
+const mulliplyBy2= input => input*2// Arrow function
+
+const result = copyArrayAnditsmiputate([1, 2, 3], multtplyBY2);
+//------------------------------------------- or we cant do this:
+//We can even pass in multiplyBy2 directly without a name But it's still just the code of a function being passed into copyArrayAndManipulate
+
+function copyArrayAndManipulate(array, instructions){
+ const output =[];
+ for (lel i = 0; i < array.lingth;;i++) {
+    output.push(instructions(array[i]));
+ }
+return output; 
+}
+const result = copyArrayAnditsmiputate([1, 2, 3], input => input*2);
+```
+---
+### Pair programming 
+- Tackle blocks with a partner 
+
+- Stay focused on the problem
+  
+- Refine technical communication
+ 
+- Collaborate to solve problem
+  
+
 
 
 
