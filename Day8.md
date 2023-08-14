@@ -164,6 +164,8 @@ setTimeout(printHello, 1000);
 ```
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e8509fd7-0476-46ad-89f6-94ffc5c7dadd)
 
+
+
   
   
 
