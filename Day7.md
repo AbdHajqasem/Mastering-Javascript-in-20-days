@@ -133,6 +133,7 @@ The outer function that takes in a function is our higher-order function
 The function we Insert is our callback function 
 
 **Higher-order functions** 
+
 Takes in a function or passes out a function
 
 Just a term to describe these functions - any function that does it we call that - but there's nothing different about them inherently 
