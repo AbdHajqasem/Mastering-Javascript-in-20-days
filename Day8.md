@@ -36,3 +36,4 @@ const result = generatedFunc(i);
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9b51b5e1-cfb4-468a-b0e6-01d958506706)
 
 
+
