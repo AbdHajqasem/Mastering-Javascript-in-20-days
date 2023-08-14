@@ -22,4 +22,8 @@ This is a challenge to learn and master Javascript in 20 days or less 🌝 . My 
 - [Day 4](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day4.md)
 - [Day 5](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day5.md)
 - [Day 6](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day6.md)
+- [Day 7](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day7.md)
+- [Day 8](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day8.md)
+- [Day 9](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day9.md)
+- [Day 10](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/blob/main/Day10.md)
 
