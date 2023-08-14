@@ -84,6 +84,7 @@ myNewFunction();
 ---
 
 **so at the end the count will equal 2**
+
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c4281c17-808a-44da-ae0a-799b744ecb31)
 
 ---
