@@ -14,6 +14,7 @@ Code we save ('define') functions & can use (call/invoke/execute/run) later with
 
 **Execution context:** 
 Created to run the code of a function has 2 parts (we've already seen them)) 
+
 **-Thread of execution**
 
 **-Memory**
