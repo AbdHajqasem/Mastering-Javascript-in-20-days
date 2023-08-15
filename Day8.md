@@ -162,7 +162,20 @@ setTimeout(printHello, 1000);
  console.log("Me first!"); 
 //In what order will our console logs appear?
 ```
+
+**Web Browser Features:**
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/43caccc0-12a1-4988-adeb-6d4f7ab372e6)
+
+**The code above will print 'Mefirst' then will print 'Hello' and thats how it works:**
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/0a96bbf9-37ff-4176-8425-707cc9b1816d)
+
+---
+
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e8509fd7-0476-46ad-89f6-94ffc5c7dadd)
+
+
 
 
 
