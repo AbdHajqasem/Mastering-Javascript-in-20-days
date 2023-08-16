@@ -41,7 +41,8 @@ function blockFor300ms(){ }
 
 setTimeout(printHello, 0);
 
-const futureData = fetch('https://twitter.com/will/tweets/1') futureData.then(display)
+const futureData = fetch('https://twitter.com/will/tweets/1')
+futureData.then(display)
 
 blockFor300ms();
 console.log("Me first!");
