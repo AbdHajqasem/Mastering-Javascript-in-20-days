@@ -57,6 +57,45 @@ user2.ineregalt = functIon() { user2.score++; };
 ```
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/493ffe2b-6cfc-4c9f-80c7-b64082a87e24)
 
+---
+
+Creating user3 using **Object.create**  
+
+Object create is going to gwe us fine •grained control over our object later on 
+##### Ex.
+```javascript
+const user3 = Object .create(null); 
+user3.name = "Eva";
+user3.score = 9;
+ user3.increment = function(){
+user3.score++;
+};
+```
+---
+
+### Generating Objects Using a Functio: 
+##### Ex.
+```javascript
+function userCreator(name, score){
+ const newUser = {};
+ newUser.name=neme;
+ newUser.score =score;
+ newUser.incrementt=function () {
+  newUser.score++;
+};
+ return newUser; 
+}; 
+const userl =userCreator(will"; 3);
+const user2 = userCrestor("Tim", 5);
+user1.increment()
+```
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3c917519-22e0-47af-b2d1-68d74793384f)
+
+
+
+
+
+
 
 
 
