@@ -124,6 +124,69 @@ userl.increment();
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/5d4b0d04-6944-4f64-b47c-f53e65b14f15)
 
+---
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e73f8dc3-13f1-47f6-9777-9b26471bf614)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/284b7a2b-7efe-4eeb-b3da-6c68ff2f6df7)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/46e01916-d4ea-47e6-a9fa-5b03c5f54fd9)
+
+---
+### This:
+Create and invoke a new function (adds) inside increment:
+##### Ex.
+```javascript
+function userCreator(name, score) {
+ const newUser = Object.create(userFunctionstore);
+ newUser.name = name;
+ newUser.score = score;
+ return newUser; 
+};
+const userFunctionStore = {
+increment: function() {
+ function addl(){
+  this.scorc++; addl() 
+} 
+};
+const userl = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+userl.increment(); 
+}
+```
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/a7a9d41e-0bb8-4625-928b-c2123bd89ae9)
+
+---
+**Arrow functions override the normal this rules** 
+##### Ex.
+```javascript
+function userCreator(name, score) {
+ const newUser = Object.create(userFunctionStore);
+ newuser.name = name;
+ newUser.score = score;
+ return newUser; 
+};
+ const userFunctionStore = {
+ increment: function() { const add1=> () {this.score++; )
+ addl() 
+} 
+);
+const userl = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user/.increment(); 
+//Now our inner function gets its this set by where it was saved - its a lexically scoped this
+```
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/88a32502-bd17-4c82-825a-fcaa3ebb95c3)
+
+---
+
+
+
+
+
+
+
+
+
 
 
 
