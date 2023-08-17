@@ -91,6 +91,45 @@ user1.increment()
 ```
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3c917519-22e0-47af-b2d1-68d74793384f)
 
+Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies 
+
+Is there a better way!
+
+Benefits: Its simple and easy to reason about! 
+
+---
+### Solution 2: Using the prototype chain
+Store the increment function in just one object and have the interpreter, if it doesn't find the function on user1, look up to that object to check if its there
+
+Link user1 and functionStore so the interpreter, on not finding .increment, makes sure to check up in functionStore where it would find it
+
+Make the link with object.create( ) technique 
+
+##### Ex.
+```javascript
+function userCreator (name, score) {
+const newUser = Object.create(userFunctionStore); newUser.name = name;
+ newUser.score = score;
+ return newUser; 
+}; 
+const userFunctionStore = {
+increment: function(){this.score++;},
+ Login: function(){console.log("Logged in");}
+}; 
+const users1 =userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+userl.increment();
+```
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e28d8e11-d4b7-4b82-aa95-de2ac8d781f2)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/5d4b0d04-6944-4f64-b47c-f53e65b14f15)
+
+
+
+
+
+
+
 
 
 
