@@ -179,6 +179,111 @@ user/.increment();
 
 ---
 
+### New keyword:
+Introducing the keyword that automates
+the hard work: 'new'
+
+When we call the function that returns an object with new in front we automate 2 things
+
+1. Create a new user object
+  
+2. Return the new user object
+
+But now we need to adjust how we write the body of userCreator - how can we:
+
+- Refer to the auto-created object?
+  
+- Know where to put our single copies of functions?
+
+##### Ex.
+```javascript
+function userCreator(name, score) {
+ const newUser = Object.create(functionStore);
+ newUser this.name = name;
+ newUser this.score = score;
+ return newUser;
+};
+functionStore userCreator.prototype // {};
+functionStore userCreator.prototype.increment = function(){
+ this.score++;
+}
+const user1 = new userCreator("Will", 3);
+```
+---
+**Interlude - functions are both objects and functions**
+##### Ex.
+```javascript
+function multiplyBy2(num){
+ return num*2
+}
+multiplyBy2.stored = 5
+multiplyBy2(3) // 6
+multiplyBy2.stored // 5
+multiplyBy2.prototype //{}
+```
+
+**The new keyword automates a lot of our manual work**
+##### Ex.
+```javascript
+function userCreator(name, score){
+ this.name = name;
+ this.score = score;
+}
+userCreator.prototype.increment = function(){ this.score++; };
+userCreator.prototype.login = function(){ console.log("login"); };
+const user1 = new userCreator(“Eva”, 9)
+user1.increment()
+```
+---
+**Benefits:**
+
+Faster to write. Often used in practice in professional code
+
+**Problems:**
+
+95% of developers have no idea how it works and therefore fail interviews
+
+We have to upper case first letter of the function so we know it requires ‘new’ to
+work!
+
+---
+### The class ‘syntactic sugar'
+
+We’re writing our shared methods separately from our object ‘constructor’ itself
+(off in the userCreator.prototype object)
+
+Other languages let us do this all in one place. ES2015 lets us do so too
+
+##### Ex.
+```javascript
+class UserCreator {
+ constructor (name, score){
+ this.name = name;
+ this.score = score;
+ }
+ increment (){ this.score++; }
+ login (){ console.log("login"); }
+}
+const user1 = new UserCreator("Eva", 9);
+user1.increment();
+```
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/db988e69-a277-432d-a6a6-04fe5e9c5c82)
+
+---
+**Benefits:**
+
+Emerging as a new standard
+Feels more like style of other languages (e.g. Python)
+
+**Problems:**
+
+99% of developers have no idea how it works and therefore fail interviews
+But you will not be one of them!
+
+
+
+
+
 
 
 
