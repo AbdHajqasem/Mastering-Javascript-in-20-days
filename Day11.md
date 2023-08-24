@@ -48,9 +48,56 @@ An ECMAScript language value is a value that is characterized by an ECMAScript l
 
 ---
 ### NaN(not a number) & isNaN:(Special Values)
+
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9aa38b4f-1f40-4206-a9ca-1e0eaa0fdc38)
 
 **NaN: Invalid Number**
+
+---
+
+### Negative Zero:
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/edf5a67f-d9d9-48c4-b594-804f23c0f505)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/b2eae470-9d89-41f3-816f-773a6a7d8b61)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/bf93806f-dab2-4279-b986-c3f51e9330ab)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/6502a5d3-211b-476e-ac57-b306aca6c6ba)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/6e7680f3-87cf-4bab-ba5b-1e270dbec400)
+
+```javascript
+if (!Object.is /*|| true*/) {
+ Object.is = function ObjectIs(x,y) {
+ var xNegZero = isItNegZero(x);
+ var yNegZero = isItNegZego(y);
+ if (xNegZero || yNegZero) {
+   return xNegZero && yNegZero;
+}
+ else if (isItNaN(x) && isItNaN(y)){
+  return true;
+}
+  else if (x === y) {
+ return true;
+}
+return false;
+// ********************** 
+function isItNegZero(v) {
+ return v == 0 && (1/v) == -Infinity; 
+} 
+function isItNaN(v) {
+ v!== v;
+}
+```
+
+
+
+
+
+
+
+
+
 
  
 
