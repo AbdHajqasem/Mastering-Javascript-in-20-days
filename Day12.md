@@ -104,7 +104,29 @@ Knowing types is always better than not knowing them +tatic Types is not the onl
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/16d88ba9-9a34-418e-8869-0ed1ef3d3032)
 
-![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3108c22b-ef04-4167-a3f6-b9353c0ab5aa)
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ae90f7de-5f0f-4e53-801a-aff4bed8eccb)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/5bace2e1-d67f-40e3-8acc-2ef5ed622b87)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/b9c73cde-9ab3-4a02-a941-3cdb1922c4e0)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e2ba9467-dada-426a-8a7b-8c82a68a12ab)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/8672aaed-c59b-4350-af7c-67a0bd75454a)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/71f54969-3048-4509-93b3-ba2dc57467f1)
+
+---
+
+  ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c059e1c0-aea7-4618-8fe9-1bbb47fcfe02)
+
+
+
+
+
+
+
+
 
 
 
