@@ -196,6 +196,27 @@ language type. But no other specification types are used with these operations.
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/39a447bf-8226-4fd3-b914-cdebe6bf5bd1)
 
+---
+### Boxing:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/81d62103-bf7d-4988-b5f3-7179fbfa3c05)
+
+**All programming languages have type conversions, because it's absolutely necessary.** 
+
+---
+
+### Corener Cases:
+**Some Ex. on corner cases**
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/290b1465-6c30-459f-8d13-ee06ae1d9ab0)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c67aee01-dc5a-4799-a43b-e2152b02d241)
+
+
+
+
+
+
+
 
 
 
