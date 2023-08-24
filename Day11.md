@@ -51,6 +51,7 @@ An ECMAScript language value is a value that is characterized by an ECMAScript l
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9aa38b4f-1f40-4206-a9ca-1e0eaa0fdc38)
 
 **NaN: Invalid Number**
+
  
 
  
