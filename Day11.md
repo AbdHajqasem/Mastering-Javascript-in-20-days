@@ -1,4 +1,4 @@
-# Day11
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9c56f5e4-4ea2-49fa-b586-67b1e6cf7380)# Day11
 ## Introduction:
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/6c4c867a-d232-4126-84b4-dca505111770)
 
@@ -66,6 +66,9 @@ An ECMAScript language value is a value that is characterized by an ECMAScript l
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/6e7680f3-87cf-4bab-ba5b-1e270dbec400)
 
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/01763525-83f4-4912-8346-4da894b3720e)
+
+##### Ex:
 ```javascript
 if (!Object.is /*|| true*/) {
  Object.is = function ObjectIs(x,y) {
@@ -89,6 +92,96 @@ function isItNaN(v) {
  v!== v;
 }
 ```
+---
+
+### Fundamental Objects:
+**Built-in Objects**
+**Native Functions**
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ce9c9074-78ae-42b7-ab9c-572186909ae4)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/a2092cd4-333e-42fc-9dbd-d415a22e133c)
+
+---
+
+## Coercion:
+Abstract Operations :
+
+These operations are not a part of the ECMAScript language; they are defined here to solely to
+
+aid the specification of the semantics of the ECMAScript language. Other, more specialized 
+
+abstract operations are defined throughout this specification. 
+
+Type Conversion :
+
+The ECMAScript language implicitly performs automatic type conversion as needed. To clarify 
+
+the semantics of certain constructs it is useful to define a set of conversion abstractoperations.
+
+The conversion abstract operations are polymorphic; they can accept a value of any ECMAScript 
+
+language type. But no other specification types are used with these operations. 
+
+### ToPrimitive():
+**Its an abstract Operation**
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/95e9cee9-6aef-4cce-b378-3738ed1249c3)
+
+---
+
+###  ToString():
+##### Ex.
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/b9192de8-a97a-485c-a49c-db9f2d76cd32)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/87442440-ce41-48c8-9006-07a1cd540f37)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/65120aee-6d8e-417b-a6d8-6f0044ebe3b6)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/166aa489-a973-4260-851c-ca0a8d7bf316)
+
+---
+### ToNumber():
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/b015d4be-59c9-4af3-8d2d-3dd2270a96c4)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/313f7720-2283-4233-8faa-d788498ecf08)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/af9b968c-7c05-4e46-a57a-ea03eeaf3349)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ac97dc73-e43e-43af-9d0a-c5b88c7ebb06)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e87c3fea-6e60-41b3-b2ad-68391d32ec6c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
