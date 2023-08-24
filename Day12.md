@@ -17,6 +17,16 @@ JavaScript's dynamic typing isnot a weakness, it's one of itsstrong qualities
 **tests:**
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/cc72e6f4-06c9-479e-aae7-bad11dbf3c0e)
 
+---
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/cd720eda-e6c8-4054-92d7-bd4584af9c3a)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/225d2215-08bd-41bc-a1be-505ecf11dbed)
+
+
+
+
+
+
 
 
 
