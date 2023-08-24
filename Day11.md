@@ -153,6 +153,64 @@ language type. But no other specification types are used with these operations.
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/e87c3fea-6e60-41b3-b2ad-68391d32ec6c)
 
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/2087d79d-5063-4e41-8cba-4821ef4485da)
+
+---
+
+### ToBoolean:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/408764b4-0331-48c2-b3ae-cb68ab9e9b3c)
+
+**Every thing not in the falsy list is Truthy**
+
+**Ex.**
+**Empty array :Truthy**
+
+---
+
+### Cases of Coercion:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/40b4790b-868a-4582-9bb8-e5d87990ba59)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c0a11808-ee78-4e01-a0a2-cd298c2a3ef4)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9d30be0f-c10f-458b-b777-88bfdacecde0)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9095aa37-c21d-438e-b75f-8d14d2452723)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/f9cffc69-9e7e-450d-947d-2ada93a852de)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/dba55e65-ab77-445f-8b8e-e707659846f6)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3c365cb5-b0a7-4dd0-be37-4a19ffd3f18a)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/29137868-cd47-4246-9836-e2e62ae40b79)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/f39bfb11-df73-400e-8538-4819aa5f13db)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
