@@ -96,7 +96,24 @@ If non-primitives: ToPrimitive Prefer: ToNumber
 
 Knowing types is always better than not knowing them +tatic Types is not the only (or even necessarily best) way to know your types 
 
-![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/21dcad34-10ab-4de0-9963-f0ae1070e0f6)
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/2dc3cf9a-af0c-4150-aa6c-d265e6446794)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/eb37f428-7398-4f47-ba6f-026bc6e05e94)
+
+**Since === is pointless when the types don't match, it's similarly unnecessary when they do match.**
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/16d88ba9-9a34-418e-8869-0ed1ef3d3032)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3108c22b-ef04-4167-a3f6-b9353c0ab5aa)
+
+
+
+
+
+
+
+
+
 
 
 
