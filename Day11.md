@@ -206,10 +206,16 @@ language type. But no other specification types are used with these operations.
 ---
 
 ### Corener Cases:
+
 **Some Ex. on corner cases**
+
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/290b1465-6c30-459f-8d13-ee06ae1d9ab0)
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c67aee01-dc5a-4799-a43b-e2152b02d241)
+
+
+
+
 
 
 
