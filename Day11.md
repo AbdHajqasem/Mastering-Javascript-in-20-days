@@ -188,6 +188,20 @@ language type. But no other specification types are used with these operations.
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/f39bfb11-df73-400e-8538-4819aa5f13db)
 
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/be1df997-9654-4159-a7e5-f966b9ba02e4)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/74183c93-448d-43c1-86b4-10b97e6afa94)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/2a8461f7-3654-4494-8e4e-69ac26968c7e)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/39a447bf-8226-4fd3-b914-cdebe6bf5bd1)
+
+
+
+
+
+
+
 
 
 
