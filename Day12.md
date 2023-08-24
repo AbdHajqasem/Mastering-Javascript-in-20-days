@@ -44,9 +44,80 @@ JavaScript's dynamic typing isnot a weakness, it's one of itsstrong qualities
 z![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3e523f59-f9da-456f-b82a-6cc7ed48dd1e)
 
 ### Coercive Equality:
+
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/b59fb682-af24-468a-891b-dcdf54e2561e)
 
 ### Double Equals Alogorithm:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/a2e14000-017d-405d-97ba-51d124a150c6)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ab93a396-956d-4658-9b85-0780bd1ea528)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/25142524-60c0-42b4-86b1-a69a57c7ed92)
+
+**Explain** 
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3eeb3c40-745f-470c-ace9-8c7b7cd6700e)
+
+**Summary:**
+
+If the types are the same: ===
+
+If null or undefined: equal 
+
+If non-primitives: ToPrimitive Prefer: ToNumber
+
+---
+
+### '==' corner cases:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/b21ffea7-c643-40a9-a864-91bb64f0233c)
+
+**Explain** 
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/06434b51-7ad9-4f31-a082-4ccc251bd535)
+
+**with booleans**
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/48431ca1-ace6-40a8-a502-10e2e6bd46ac)
+
+**never do  '==' with true or with false**
+
+**Explain** 
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/cf0b99ad-31c7-4be8-859c-09401d46b896)
+
+**how to avoid**:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/3ed96677-c122-4ec8-af0b-1b830ed8db75)
+
+---
+### The case for double equals:
+
+Knowing types is always better than not knowing them +tatic Types is not the only (or even necessarily best) way to know your types 
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/21dcad34-10ab-4de0-9963-f0ae1070e0f6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
