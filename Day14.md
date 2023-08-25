@@ -67,6 +67,39 @@
 
 ### Hoisting:
 
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/114cead5-6d8b-4f5c-92bb-9846e6e4f2ef)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/30991352-9a4d-47ea-a1bd-450432a35b41)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/cad2652c-1a4f-404a-8ccf-de06c6df6e28)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ee1657b5-c32b-4ac9-9e1d-6d82c6e10cd2)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/deccc104-f356-4ffa-b82b-01a4a5862922)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ca9fef14-4330-4e0c-835b-21c8515f3e34)
+
+### let does not hoist:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/1a465ae8-b2d6-4204-851d-f5e320114f48)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/4fd4dbc1-0b15-430d-bcb8-265a176b4dbe)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/6496b3d0-6e13-4755-9bd4-fdec4ef7b595)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
