@@ -171,6 +171,107 @@ function setsMatch(arr1,arr2) {
 
 ### TypeScript & Flow:
 
+**Benefits:**
+
+1. Catch type-related mistakes
+
+2. Communicate type intent 
+
+3. Provide IDE feedback
+
+**Caveats:** 
+
+1. Inferencing is best-guess, not a guarantee
+ 
+2. Annotations are optional
+
+3. Any part of the application that isn't typed introduces uncertainty
+   
+
+### inferencing:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/46b1d0b9-dde2-4e3e-b6e9-a7d14b220b2c)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/419c9193-884c-4b10-b56e-76c53b64277b)
+
+### Custom Types:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/823f6883-7a0d-448f-9ae4-8f8c8561b0f4)
+
+### Validating Operand Types:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/8f3ffa2e-e0d5-45b8-91b2-193da6598f8e)
+
+### Static Typing Pros :
+
+**They make types more obcios in code**
+
+**Familiarity: they look like other language's type systems**
+
+**Extremely popular**
+
+**They're very sophisticated and good at what they do**
+
+---
+
+### Static Typing Cons :
+
+**They use "non-JS-standard" syntax (or code comments)**
+
+**They focus more on "static types" (variables, parameters, returns, properties, etc) than value types**
+
+---
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/42c101a4-0088-4ea4-9fa6-82dd28d1774e)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/0f086f4a-b49b-4a36-aaab-dcf5f2f5496c)
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/99f5f97d-6192-45c8-baeb-ae2f6fc2ea4b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
