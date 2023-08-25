@@ -120,6 +120,66 @@ Knowing types is always better than not knowing them +tatic Types is not the onl
 
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c059e1c0-aea7-4618-8fe9-1bbb47fcfe02)
 
+**Tests**:
+
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/ee21dcc2-6509-408e-8c61-72e48f693ab6)
+
+
+**Answer**:
+
+```javascript
+function findAll(match,arr) {
+  var ret = [];
+  for (let v of arr) {
+    if (Object.is(match,v)) {
+      ret.push(v);
+    }
+    else if (match == null && v == null) {
+      ret.push(v);
+    }
+    else if (typeof match == "boolean") {
+      if (match === v) {
+        ret.push(v);
+      }
+    }
+    else if (typeof match == "string" && match.trim() != "" && typeof v == "number" && !Object.is(-0,v)) {
+      if (match == v) {
+        ret.push(v);
+      }
+    }
+    else if (typeof match == "number" && !Object.is(match,-0) && !Object.is(match,NaN) && !Object.is(match,Infinity) && !Object.is(match,-Infinity) && typeof v == "string" && v.trim() != "") {
+      if (match == v) {
+        ret.push(v);
+      }
+    }
+  }
+	return ret;
+}
+
+function setsMatch(arr1,arr2) {
+	if (Array.isArray(arr1) && Array.isArray(arr2) && arr1.length == arr2.length) {
+		for (let v of arr1) {
+			if (!arr2.includes(v)) return false;
+		}
+		return true;
+	}
+	return false;
+}
+```
+---
+## Static Typing:
+
+### TypeScript & Flow:
+
+
+
+
+
+
+
+
+
+
   
 
 
