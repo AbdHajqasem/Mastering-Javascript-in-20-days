@@ -118,7 +118,9 @@ Knowing types is always better than not knowing them +tatic Types is not the onl
 
 ---
 
-  ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c059e1c0-aea7-4618-8fe9-1bbb47fcfe02)
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/c059e1c0-aea7-4618-8fe9-1bbb47fcfe02)
+
+  
 
 
 
