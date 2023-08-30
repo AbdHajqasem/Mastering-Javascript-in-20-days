@@ -1,4 +1,6 @@
-![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9c56f5e4-4ea2-49fa-b586-67b1e6cf7380)# Day11
+
+# Day1
+![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/9c56f5e4-4ea2-49fa-b586-67b1e6cf7380)
 ## Introduction:
 ![image](https://github.com/AbdHajqasem/Mastering-Javascript-in-20-days/assets/122126568/6c4c867a-d232-4126-84b4-dca505111770)
 
